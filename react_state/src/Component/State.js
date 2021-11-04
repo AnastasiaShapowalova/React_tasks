@@ -1,17 +1,17 @@
 import { useState } from "react";
+import ShowButton from './ShowButton'
 
 function State() {
     const [countSecond, setCountSecond] = useState(0)
     const [countThird, setCountThird] = useState(0)
     const [countFourth, setCountFourth] = useState(0)
 
-    let p
+   let p
    if(countSecond > 10) {
         p = <p>{countSecond} Count is more then 10</p>
-   } else {
+    } else {
         p = <p>{countSecond} Count is less then 10</p>
-   }
-
+    }
     return(
         <div>
             <div>
@@ -31,6 +31,8 @@ function State() {
                 <button onClick={() => setCountFourth(countFourth+5)}>+5</button>
                 <p>{countFourth}</p>
             </div>
+
+            <ShowButton/>
         </div>
     )
 }
