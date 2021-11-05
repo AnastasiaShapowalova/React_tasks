@@ -28,7 +28,8 @@ function State() {
             <div>
                 <button onClick={() => setCountFourth(countFourth+1)}>+1</button>
                 <button onClick={() => setCountFourth(countFourth-1)}>-1</button>
-                <button onClick={() => setCountFourth(countFourth+5)}>+5</button>
+                <button onClick={() => setCountFourth(countFourth+10)}>+10</button>
+                <button onClick={() => setCountFourth(countFourth*countFourth)}>*</button>
                 <p>{countFourth}</p>
             </div>
         </div>
