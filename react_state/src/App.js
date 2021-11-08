@@ -1,10 +1,11 @@
 import State from './Component/State'
 import './App.css';
+import Square from './Component/Squares';
 
 function App() {
   return (
     <div className="App">
-      <State/>
+      <Square/>
     </div>
   );
 }
