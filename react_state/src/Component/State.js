@@ -1,22 +1,19 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 
 function State() {
     const [countSecond, setCountSecond] = useState(0)
     const [countThird, setCountThird] = useState(0)
     const [countFourth, setCountFourth] = useState(0)
 
-    let p
-   if(countSecond > 10) {
-        p = <p>{countSecond} Count is more then 10</p>
-   } else {
-        p = <p>{countSecond} Count is less then 10</p>
-   }
 
     return(
         <div>
             <div>
                 <button onClick={() => setCountSecond(countSecond+1)}>Count</button>
-                <p>{p}</p>
+                <p>{
+                (countSecond < 10) ? 
+                `${countSecond} less then 10` : 
+                `${countSecond} more then 10`}</p>
             </div>
 
             <div>
