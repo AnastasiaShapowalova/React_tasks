@@ -28,10 +28,17 @@ function Slider() {
             [false]: 'https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/07/Man-Silhouette.jpg'
         }
 
+        function changeOnRight() {
+            (slide <= 1) ? setSlider(slide = 2) : setSlider(slide - 1)
+        }
+        function changeOnLeft() {
+            (slide > slides.length-1) ? setSlider(slide = 1) : setSlider(slide + 1)
+        }
+
     return (
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <div>
-                <FaLessThan onClick={ () => (slide <= 1) ? setSlider(slide = 2) : setSlider(slide - 1) }/>
+                <FaLessThan onClick={changeOnRight}/>
             </div>
             <div> 
                 {slides.map( item =>{
@@ -41,7 +48,7 @@ function Slider() {
                 } )}
             </div>
             <div>
-                <FaGreaterThan onClick={ () => (slide > slides.length-1) ? setSlider(slide = 1) : setSlider(slide + 1)}/>
+                <FaGreaterThan onClick={changeOnLeft} />
             </div>
         </div>
     )
