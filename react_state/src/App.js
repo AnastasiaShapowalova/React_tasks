@@ -1,10 +1,10 @@
-import State from './Component/State'
+import State from './Component/State';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <State/>
+     				<State />
     </div>
   );
 }
