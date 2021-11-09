@@ -1,6 +1,5 @@
-import State from './Component/State'
 import './App.css';
-import Square from './Component/Squares';
+import Square from './Component/Square';
 
 function App() {
   return (
