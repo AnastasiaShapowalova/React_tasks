@@ -1,4 +1,4 @@
-import State from './Component/State';
+import {State} from './Component/State|Task1';
 import './App.css';
 
 function App() {
