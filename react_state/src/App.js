@@ -1,12 +1,10 @@
 import './App.css';
-import Paragraph from './Component/Paragraph';
-import Dropdown from './Component/Menu'
+import { Card } from './Component/Card|Task7';
 
 function App() {
   return (
     <div className="App">
-      <Paragraph/>
-			<Dropdown/>
+			<Card/>
     </div>
   );
 }
