@@ -1,12 +1,10 @@
-import State from './Component/State'
-import Slider from './Component/Slider';
 import './App.css';
+import {Slider} from './Component/Slider|Task3';
 
 function App() {
   return (
     <div className="App">
       <Slider/>
-      {/* <State/> */}
     </div>
   );
 }

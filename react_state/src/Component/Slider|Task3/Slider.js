@@ -42,7 +42,6 @@ function Slider() {
             </div>
             <div> 
                 {slides.map( item =>{
-
                     (item.id == slide)? style = {display: 'block', height: '300px'} : style = {display: 'none', height: '300px'};
                     return( <img id={item.id} style={style} src={item.img} alt={item.text}  /> )
                 } )}
