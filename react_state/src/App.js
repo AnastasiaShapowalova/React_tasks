@@ -1,11 +1,9 @@
 import './App.css';
-import Paragraph from './Component/Paragraph';
-import Dropdown from './Component/Menu'
+import {Dropdown} from './Component/Dropdown|Task7'
 
 function App() {
   return (
     <div className="App">
-      <Paragraph/>
 			<Dropdown/>
     </div>
   );
