@@ -3,9 +3,8 @@ import { Fragment } from "react/cjs/react.production.min";
 
 function ShowButton() {
     const [isShow, setIsShow] = useState(false)
- 
-
     const showChange = () => setIsShow(!isShow)
+		
     const buttonNameMap = {
         [true]: 'Unshow',
         [false]: 'Show'
