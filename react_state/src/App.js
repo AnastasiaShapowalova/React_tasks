@@ -1,5 +1,5 @@
 import './App.css';
-import Paragraph from './Component/Paragraph';
+import {Paragraph} from './Component/Paragraph|Task6/';
 
 function App() {
   return (
