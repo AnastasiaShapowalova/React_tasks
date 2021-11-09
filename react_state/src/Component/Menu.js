@@ -1,17 +1,27 @@
 import React, { useState } from 'react';
 
 function Dropdown() {
-   const options = ['Yellow', 'Black', 'White', 'Gold'];
-   const [value, setValue] = useState('');
+	const style = {
+		width: '120px'
+	}
 
-   const option = options.map((text, index) => {
-      return <option key={index} value={index}>{text}</option>;
-   });
+   const options = ['Yellow', 'Black', 'White', 'Gold'];
+   const [val, setValue] = useState(false);
+	 
+	 const onChange = () => (
+		 setValue(true)
+		 )
+		 
+		 const option = options.map((text, index) => {
+					return(
+					<option key={index} value={index}>{text}</option>
+					)
+		 });
 
    return <div>
-      <select  onChange={(event) => setValue(event.target.value)}>
-				<optgroup name='name' label="Choose one:">
-					{option}
+      <select onClick={onChange} style={style}>
+				<optgroup name='name' label="Choose one:" >
+					{val ? option : <option>Choose value:</option>}
 				</optgroup>
       </select>
    </div>;
