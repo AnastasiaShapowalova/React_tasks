@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.squareBlue {
+	display: flex;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: blue
+}
+
+.squareGreen {
+	display: flex;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: green
+}
+
+.squareRed {
+	display: flex;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: red
+}

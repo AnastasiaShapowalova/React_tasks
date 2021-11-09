@@ -1,5 +1,5 @@
 import './App.css';
-import Square from './Component/Square';
+import {Square} from './Component/Square|Task4';
 
 function App() {
   return (
