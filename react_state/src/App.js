@@ -1,12 +1,9 @@
-import './App.css';
-import { Card } from './Component/Card|Task8';
+import './App.css'
+import React from 'react'
+// import { List } from './components'
 
 function App() {
-  return (
-    <div className="App">
-			<Card/>
-    </div>
-  );
+  return <div className="App">{/* <List /> */}</div>
 }
 
-export default App;
+export default App

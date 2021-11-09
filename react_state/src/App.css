@@ -47,4 +47,33 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+.panelWrapper {
+	width: 1000px;
+	border: 1px solid black;
+	cursor: pointer;
+	margin-bottom: 8px;
+}
+
+.buttonWrapper {
+	width: 1000px;
+	height: 50px;
+	margin: 0;
+	background-color: #EFEFEF;
+}
+
+.arrayButton {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.listClasses {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 24px;
 }
