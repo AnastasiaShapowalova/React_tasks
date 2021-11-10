@@ -1,3 +1,4 @@
-import { Collapse } from './Collapse'
+import { ProgressBar } from './ProgressBar'
+import { ProgressContent } from './ProgressContent'
 
-export { Collapse }
+export { ProgressBar, ProgressContent }
