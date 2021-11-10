@@ -1,12 +1,13 @@
-import {State} from './Component/State|Task1';
-import './App.css';
+import React from 'react'
+import { State } from './Component/State|Task1'
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-     				<State />
+      <State />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
