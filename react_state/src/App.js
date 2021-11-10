@@ -1,12 +1,11 @@
-import State from './Component/State'
 import './App.css';
-import Square from './Component/Squares';
-import InputText from './Component/InputText';
+import React from 'react';
+import {Paragraph} from './Component/Paragraph|Task6/';
 
 function App() {
   return (
     <div className="App">
-      <InputText max='5' min='2'/>
+      <Paragraph/>
     </div>
   );
 }
