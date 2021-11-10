@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import {Square} from './Component/Square|Task4';
 
 function App() {
