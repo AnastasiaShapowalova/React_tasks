@@ -1,9 +1,13 @@
 import './App.css'
 import React from 'react'
-// import { List } from './components'
+import { Collapse } from './components/Collapse'
 
 function App() {
-  return <div className="App">{/* <List /> */}</div>
+  return (
+    <div className="App">
+      <Collapse />
+    </div>
+  )
 }
 
 export default App
