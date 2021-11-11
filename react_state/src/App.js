@@ -1,11 +1,11 @@
 import './App.css'
 import React from 'react'
-import { ProgressBar } from './components'
+import { Menu } from './components'
 
 function App() {
   return (
     <div className="App">
-      <ProgressBar />
+      <Menu />
     </div>
   )
 }
