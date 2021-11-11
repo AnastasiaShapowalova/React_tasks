@@ -1,11 +1,10 @@
 import './App.css'
 import React from 'react'
-import { Collapse } from './components/Collapse'
-
+import { ProgressBar } from './components'
 function App() {
   return (
     <div className="App">
-      <Collapse />
+      <ProgressBar />
     </div>
   )
 }
