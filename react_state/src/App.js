@@ -1,11 +1,11 @@
 import './App.css'
 import React from 'react'
-import Pagination from './components/Pagination/Pagination'
+import { Rate } from './components'
 
 function App() {
   return (
     <div className="App">
-      <Pagination count="100" limit="10" />
+      <Rate maxStars="5" />
     </div>
   )
 }
