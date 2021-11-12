@@ -85,4 +85,45 @@
 	font-weight: bold
 } 
 
+.pagination {
+	display: flex;
+	flex-direction: row;
+}
 
+.page-item {
+	margin: 10px;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.page-button {
+	color:black;
+	border: none;
+	border-radius: 20px;
+	background-color: rgb(84, 157, 218);
+	cursor: pointer;
+}
+.button-disabled {
+	color:black;
+	border: none;
+	border-radius: 20px;
+	background-color: rgb(84, 157, 218);
+	display: none;
+
+}
+
+.page-list {
+	color:midnightblue;
+	border: none;
+	border-radius: 20px;
+	background-color:rgb(93, 167, 228);
+	cursor: pointer;
+}
+
+.page-active {
+	color: rgb(93, 167, 228);
+	border: none;
+	border-radius: 20px;
+	background-color: midnightblue;
+	cursor: pointer;
+}
