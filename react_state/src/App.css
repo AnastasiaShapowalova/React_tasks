@@ -127,3 +127,9 @@
 	background-color: midnightblue;
 	cursor: pointer;
 }
+
+.rateButton {
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}

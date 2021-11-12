@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { LIST } from '../__constants__'
+import { LIST } from './__constants__'
 
 const ButtonList = () => {
   const [activeButton, setActiveButton] = useState(LIST[0].li)
