@@ -1,11 +1,11 @@
 import './App.css'
 import React from 'react'
-import { Menu } from './components'
+import Pagination from './components/Pagination/Pagination'
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <Pagination count="100" limit="10" />
     </div>
   )
 }
